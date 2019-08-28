@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5AB572CD230AE60800078A33 /* CGCloudKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB572CC230AE60800078A33 /* CGCloudKit.swift */; };
+		5AD85FCB230440DE00A64B1E /* CGiCloudSync.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AD85FC1230440DE00A64B1E /* CGiCloudSync.framework */; };
+		5AD85FD0230440DE00A64B1E /* TSCloudSyncTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD85FCF230440DE00A64B1E /* TSCloudSyncTests.swift */; };
+		5AD85FD2230440DE00A64B1E /* CGiCloudSync.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AD85FC4230440DE00A64B1E /* CGiCloudSync.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5AD85FDC230441B500A64B1E /* CGiCloudKVStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD85FDB230441B500A64B1E /* CGiCloudKVStore.swift */; };
+		5AD85FDE230478E400A64B1E /* CGiCloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD85FDD230478E400A64B1E /* CGiCloud.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5AD85FCC230440DE00A64B1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AD85FB8230440DE00A64B1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AD85FC0230440DE00A64B1E;
+			remoteInfo = TSCloudSync;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5AB572CC230AE60800078A33 /* CGCloudKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGCloudKit.swift; sourceTree = "<group>"; };
+		5AD85FC1230440DE00A64B1E /* CGiCloudSync.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CGiCloudSync.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AD85FC4230440DE00A64B1E /* CGiCloudSync.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGiCloudSync.h; sourceTree = "<group>"; };
+		5AD85FC5230440DE00A64B1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AD85FCA230440DE00A64B1E /* CGiCloudSyncTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CGiCloudSyncTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AD85FCF230440DE00A64B1E /* TSCloudSyncTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSCloudSyncTests.swift; sourceTree = "<group>"; };
+		5AD85FD1230440DE00A64B1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AD85FDB230441B500A64B1E /* CGiCloudKVStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGiCloudKVStore.swift; sourceTree = "<group>"; };
+		5AD85FDD230478E400A64B1E /* CGiCloud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGiCloud.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AD85FBE230440DE00A64B1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AD85FC7230440DE00A64B1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AD85FCB230440DE00A64B1E /* CGiCloudSync.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5AD85FB7230440DE00A64B1E = {
+			isa = PBXGroup;
+			children = (
+				5AD85FC3230440DE00A64B1E /* CGiCloudSync */,
+				5AD85FCE230440DE00A64B1E /* CGiCloudSyncTests */,
+				5AD85FC2230440DE00A64B1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5AD85FC2230440DE00A64B1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AD85FC1230440DE00A64B1E /* CGiCloudSync.framework */,
+				5AD85FCA230440DE00A64B1E /* CGiCloudSyncTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AD85FC3230440DE00A64B1E /* CGiCloudSync */ = {
+			isa = PBXGroup;
+			children = (
+				5AD85FC4230440DE00A64B1E /* CGiCloudSync.h */,
+				5AD85FC5230440DE00A64B1E /* Info.plist */,
+				5AD85FDB230441B500A64B1E /* CGiCloudKVStore.swift */,
+				5AD85FDD230478E400A64B1E /* CGiCloud.swift */,
+				5AB572CC230AE60800078A33 /* CGCloudKit.swift */,
+			);
+			path = CGiCloudSync;
+			sourceTree = "<group>";
+		};
+		5AD85FCE230440DE00A64B1E /* CGiCloudSyncTests */ = {
+			isa = PBXGroup;
+			children = (
+				5AD85FCF230440DE00A64B1E /* TSCloudSyncTests.swift */,
+				5AD85FD1230440DE00A64B1E /* Info.plist */,
+			);
+			path = CGiCloudSyncTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5AD85FBC230440DE00A64B1E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AD85FD2230440DE00A64B1E /* CGiCloudSync.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5AD85FC0230440DE00A64B1E /* CGiCloudSync */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AD85FD5230440DE00A64B1E /* Build configuration list for PBXNativeTarget "CGiCloudSync" */;
+			buildPhases = (
+				5AD85FBC230440DE00A64B1E /* Headers */,
+				5AD85FBD230440DE00A64B1E /* Sources */,
+				5AD85FBE230440DE00A64B1E /* Frameworks */,
+				5AD85FBF230440DE00A64B1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CGiCloudSync;
+			productName = TSCloudSync;
+			productReference = 5AD85FC1230440DE00A64B1E /* CGiCloudSync.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5AD85FC9230440DE00A64B1E /* CGiCloudSyncTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AD85FD8230440DE00A64B1E /* Build configuration list for PBXNativeTarget "CGiCloudSyncTests" */;
+			buildPhases = (
+				5AD85FC6230440DE00A64B1E /* Sources */,
+				5AD85FC7230440DE00A64B1E /* Frameworks */,
+				5AD85FC8230440DE00A64B1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AD85FCD230440DE00A64B1E /* PBXTargetDependency */,
+			);
+			name = CGiCloudSyncTests;
+			productName = TSCloudSyncTests;
+			productReference = 5AD85FCA230440DE00A64B1E /* CGiCloudSyncTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5AD85FB8230440DE00A64B1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Techsmith;
+				TargetAttributes = {
+					5AD85FC0230440DE00A64B1E = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+					};
+					5AD85FC9230440DE00A64B1E = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 5AD85FBB230440DE00A64B1E /* Build configuration list for PBXProject "CGiCloudSync" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5AD85FB7230440DE00A64B1E;
+			productRefGroup = 5AD85FC2230440DE00A64B1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AD85FC0230440DE00A64B1E /* CGiCloudSync */,
+				5AD85FC9230440DE00A64B1E /* CGiCloudSyncTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5AD85FBF230440DE00A64B1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AD85FC8230440DE00A64B1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AD85FBD230440DE00A64B1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AD85FDE230478E400A64B1E /* CGiCloud.swift in Sources */,
+				5AD85FDC230441B500A64B1E /* CGiCloudKVStore.swift in Sources */,
+				5AB572CD230AE60800078A33 /* CGCloudKit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AD85FC6230440DE00A64B1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AD85FD0230440DE00A64B1E /* TSCloudSyncTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5AD85FCD230440DE00A64B1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AD85FC0230440DE00A64B1E /* CGiCloudSync */;
+			targetProxy = 5AD85FCC230440DE00A64B1E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5AD85FD3230440DE00A64B1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5AD85FD4230440DE00A64B1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5AD85FD6230440DE00A64B1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = CGiCloudSync/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = tech.greene.CGiCloudSync;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		5AD85FD7230440DE00A64B1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = CGiCloudSync/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = tech.greene.CGiCloudSync;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		5AD85FD9230440DE00A64B1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CGiCloudSyncTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.techsmith.CGiCloudSyncTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		5AD85FDA230440DE00A64B1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CGiCloudSyncTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.techsmith.CGiCloudSyncTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5AD85FBB230440DE00A64B1E /* Build configuration list for PBXProject "CGiCloudSync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AD85FD3230440DE00A64B1E /* Debug */,
+				5AD85FD4230440DE00A64B1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AD85FD5230440DE00A64B1E /* Build configuration list for PBXNativeTarget "CGiCloudSync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AD85FD6230440DE00A64B1E /* Debug */,
+				5AD85FD7230440DE00A64B1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AD85FD8230440DE00A64B1E /* Build configuration list for PBXNativeTarget "CGiCloudSyncTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AD85FD9230440DE00A64B1E /* Debug */,
+				5AD85FDA230440DE00A64B1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5AD85FB8230440DE00A64B1E /* Project object */;
+}
